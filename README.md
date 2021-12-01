@@ -16,3 +16,5 @@ sudo nano /etc/webmin/miniserv.conf
 ssl=0 
 
 sudo service webmin restart
+
+go to http://"IP YOUR SERVER":10000
