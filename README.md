@@ -14,3 +14,5 @@ sudo ./webmin.sh
 sudo nano /etc/webmin/miniserv.conf
 
 ssl=0 
+
+sudo service webmin restart
