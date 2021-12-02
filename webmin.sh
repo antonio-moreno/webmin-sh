@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script para instalar webmin
+# script to install webmin
 sudo echo " " >> /etc/apt/sources.list
 sudo echo "deb http://download.webmin.com/download/repository sarge contrib" >> /etc/apt/sources.list
 wget http://www.webmin.com/jcameron-key.asc
@@ -12,3 +12,5 @@ sudo echo "ssl=0" >> /etc/webmin/miniserv.conf
 sudo chmod 700 /etc/webmin/miniserv.conf
 sudo service webmin restart
 clear
+echo WEBMIN INSTALLED
+echo Go to http://"IP YOUR SERVER":10000
