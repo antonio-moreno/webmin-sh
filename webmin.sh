@@ -10,3 +10,5 @@ sudo su
 sudo echo " " >> /etc/webmin/miniserv.conf 
 sudo echo "ssl=0" >> /etc/webmin/miniserv.conf 
 sudo service webmin restart
+sudo chmod 777 webmin.sh
+clear
