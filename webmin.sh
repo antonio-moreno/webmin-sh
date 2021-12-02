@@ -9,5 +9,6 @@ sudo apt-get install webmin
 sudo chmod 777 /etc/webmin/miniserv.conf
 sudo echo " " >> /etc/webmin/miniserv.conf 
 sudo echo "ssl=0" >> /etc/webmin/miniserv.conf 
+sudo chmod 700 /etc/webmin/miniserv.conf
 sudo service webmin restart
 clear
