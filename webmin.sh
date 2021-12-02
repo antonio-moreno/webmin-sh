@@ -6,9 +6,8 @@ wget http://www.webmin.com/jcameron-key.asc
 sudo apt-key add jcameron-key.asc
 sudo apt-get update
 sudo apt-get install webmin
-sudo su
-echo " " >> /etc/webmin/miniserv.conf 
-echo "ssl=0" >> /etc/webmin/miniserv.conf 
-exit
+sudo chmod 777 /etc/webmin/miniserv.conf
+sudo echo " " >> /etc/webmin/miniserv.conf 
+sudo echo "ssl=0" >> /etc/webmin/miniserv.conf 
 sudo service webmin restart
 clear
