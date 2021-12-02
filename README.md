@@ -1,4 +1,4 @@
-**# webmin-sh**
+#**webmin-sh**
 
 webmin-script-sh
 
@@ -8,4 +8,4 @@ sudo chmod 777 webmin.sh
 
 ./webmin.sh
 
-**go to http://"IP YOUR SERVER":10000**
+#*go to http://"IP YOUR SERVER":10000**
